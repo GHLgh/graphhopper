@@ -42,9 +42,9 @@ script:
 
 after_success:
   # deploy snapshot artifacts to sonatype and if tagged deploy then release to maven central
-  - echo `pwd`
-  - echo $TRAVIS_BUILD_DIR
-  - find $TRAVIS_BUILD_DIR -name '*.clz' -print
+  - ls $HOME/try_cache
+  - mkdir $HOME/try_cache
+  - find $TRAVIS_BUILD_DIR -name '*.clz' -print | | cpio -pvdumB $HOME/try_cache
   - if [ "$TRAVIS_JDK_VERSION" == "openjdk8" ] && [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
         mvn deploy --settings core/files/settings.xml -DskipTests=true -B;
     elif [ "$TRAVIS_JDK_VERSION" == "openjdk8" ] && [ "$TRAVIS_TAG" != "" ]; then
@@ -61,4 +61,5 @@ notifications:
 
 cache:
   directories:
+  - $HOME/try_cache
   - $HOME/.m2
