@@ -1,0 +1,1367 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] GraphHopper Parent Project                                         [pom]
+[INFO] GraphHopper API                                                    [jar]
+[INFO] GraphHopper Web API                                                [jar]
+[INFO] GraphHopper Core                                                   [jar]
+[INFO] GraphHopper Reader for OpenStreetMap Data                          [jar]
+[INFO] GraphHopper Isochrone                                              [jar]
+[INFO] GraphHopper Reader for Gtfs Data                                   [jar]
+[INFO] GraphHopper Tools                                                  [jar]
+[INFO] GraphHopper Directions API hand-crafted Java Client.               [jar]
+[INFO] GraphHopper Dropwizard Bundle                                      [jar]
+[INFO] GraphHopper Web                                                    [jar]
+[INFO] 
+[INFO] -----------------< com.graphhopper:graphhopper-parent >-----------------
+[INFO] Building GraphHopper Parent Project 0.12-SNAPSHOT                 [1/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-parent >>>
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-parent ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-parent ---
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-parent ---
+[INFO] 
+[INFO] ------------------< com.graphhopper:graphhopper-api >-------------------
+[INFO] Building GraphHopper API 0.12-SNAPSHOT                            [2/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-api >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-api ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-api ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-api ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.util.HelperTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 sec - in com.graphhopper.util.HelperTest
+Running com.graphhopper.util.GHRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.util.GHRequestTest
+Running com.graphhopper.util.PMapTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.graphhopper.util.PMapTest
+Running com.graphhopper.util.InstructionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.graphhopper.util.InstructionTest
+Running com.graphhopper.util.AngleCalcTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.util.AngleCalcTest
+Running com.graphhopper.util.shapes.BBoxTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.graphhopper.util.shapes.BBoxTest
+Running com.graphhopper.util.shapes.GHPoint3DTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.graphhopper.util.shapes.GHPoint3DTest
+Running com.graphhopper.util.shapes.GHPointTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.util.shapes.GHPointTest
+Running com.graphhopper.util.shapes.PolygonTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.graphhopper.util.shapes.PolygonTest
+Running com.graphhopper.util.shapes.CircleTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.graphhopper.util.shapes.CircleTest
+Running com.graphhopper.util.DistanceCalcEarthTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.util.DistanceCalcEarthTest
+Running com.graphhopper.util.FinishInstructionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.graphhopper.util.FinishInstructionTest
+Running com.graphhopper.util.GHResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.util.GHResponseTest
+Running com.graphhopper.util.PointListTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in com.graphhopper.util.PointListTest
+
+Results :
+
+Tests run: 63, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-api ---
+[INFO] 
+[INFO] ----------------< com.graphhopper:graphhopper-web-api >-----------------
+[INFO] Building GraphHopper Web API 0.12-SNAPSHOT                        [3/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-web-api >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-web-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/web-api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-web-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-web-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-web-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-web-api ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-web-api ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-web-api ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.util.InstructionListRepresentationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.807 sec - in com.graphhopper.util.InstructionListRepresentationTest
+Running com.graphhopper.json.geo.JsonFeatureCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 sec - in com.graphhopper.json.geo.JsonFeatureCollectionTest
+Running com.graphhopper.http.WebHelperTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.graphhopper.http.WebHelperTest
+
+Results :
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-web-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-web-api ---
+[INFO] 
+[INFO] ------------------< com.graphhopper:graphhopper-core >------------------
+[INFO] Building GraphHopper Core 0.12-SNAPSHOT                           [4/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-core >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 48 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-core ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-core ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-core ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.reader.PrincetonReaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.334 sec - in com.graphhopper.reader.PrincetonReaderTest
+Running com.graphhopper.reader.osm.conditional.ConditionalParserTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.graphhopper.reader.osm.conditional.ConditionalParserTest
+Running com.graphhopper.reader.osm.conditional.DateRangeParserTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec - in com.graphhopper.reader.osm.conditional.DateRangeParserTest
+Running com.graphhopper.reader.osm.conditional.ConditionalOSMTagInspectorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.graphhopper.reader.osm.conditional.ConditionalOSMTagInspectorTest
+Running com.graphhopper.reader.OSMElementTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.reader.OSMElementTest
+Running com.graphhopper.reader.dem.BridgeElevationInterpolatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec - in com.graphhopper.reader.dem.BridgeElevationInterpolatorTest
+Running com.graphhopper.reader.dem.HeightTileTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.reader.dem.HeightTileTest
+Running com.graphhopper.reader.dem.CGIARProviderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec - in com.graphhopper.reader.dem.CGIARProviderTest
+Running com.graphhopper.reader.dem.ElevationInterpolatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.reader.dem.ElevationInterpolatorTest
+Running com.graphhopper.reader.dem.GraphElevationSmoothingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.graphhopper.reader.dem.GraphElevationSmoothingTest
+Running com.graphhopper.reader.dem.MultiSourceElevationProviderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.graphhopper.reader.dem.MultiSourceElevationProviderTest
+Running com.graphhopper.reader.dem.TunnelElevationInterpolatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.graphhopper.reader.dem.TunnelElevationInterpolatorTest
+Running com.graphhopper.reader.dem.SRTMProviderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.888 sec - in com.graphhopper.reader.dem.SRTMProviderTest
+Running com.graphhopper.reader.dem.GMTEDProviderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec - in com.graphhopper.reader.dem.GMTEDProviderTest
+Running com.graphhopper.reader.dem.SRTMGL1ProviderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.reader.dem.SRTMGL1ProviderTest
+Running com.graphhopper.reader.OSMNodeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.graphhopper.reader.OSMNodeTest
+Running com.graphhopper.util.UnzipperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.graphhopper.util.UnzipperTest
+Running com.graphhopper.util.DepthFirstSearchTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.graphhopper.util.DepthFirstSearchTest
+Running com.graphhopper.util.DouglasPeuckerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.graphhopper.util.DouglasPeuckerTest
+Running com.graphhopper.util.SimpleIntDequeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.graphhopper.util.SimpleIntDequeTest
+Running com.graphhopper.util.PathSimplificationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec - in com.graphhopper.util.PathSimplificationTest
+Running com.graphhopper.util.BitUtilBigTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.graphhopper.util.BitUtilBigTest
+Running com.graphhopper.util.GHUtilityTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in com.graphhopper.util.GHUtilityTest
+Running com.graphhopper.util.InstructionListTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec - in com.graphhopper.util.InstructionListTest
+Running com.graphhopper.util.TranslationMapTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.util.TranslationMapTest
+Running com.graphhopper.util.BreadthFirstSearchTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.graphhopper.util.BreadthFirstSearchTest
+Running com.graphhopper.util.CHEdgeIteratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.graphhopper.util.CHEdgeIteratorTest
+Running com.graphhopper.util.BitUtilLittleTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.graphhopper.util.BitUtilLittleTest
+Running com.graphhopper.GraphHopperAPITest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.554 sec - in com.graphhopper.GraphHopperAPITest
+Running com.graphhopper.storage.RAMDataAccessTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in com.graphhopper.storage.RAMDataAccessTest
+Running com.graphhopper.storage.GraphHopperStorageWithTurnCostsTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.421 sec - in com.graphhopper.storage.GraphHopperStorageWithTurnCostsTest
+Running com.graphhopper.storage.RAMDirectoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.graphhopper.storage.RAMDirectoryTest
+Running com.graphhopper.storage.change.ChangeGraphHelperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.554 sec - in com.graphhopper.storage.change.ChangeGraphHelperTest
+Running com.graphhopper.storage.TurnCostExtensionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.graphhopper.storage.TurnCostExtensionTest
+Running com.graphhopper.storage.GraphHopperStorageForDataFlagEncoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in com.graphhopper.storage.GraphHopperStorageForDataFlagEncoderTest
+Running com.graphhopper.storage.GraphHopperStorageTest
+Tests run: 47, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 sec - in com.graphhopper.storage.GraphHopperStorageTest
+Running com.graphhopper.storage.GraphStorageViaMMapTest
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.515 sec - in com.graphhopper.storage.GraphStorageViaMMapTest
+Running com.graphhopper.storage.UnsafeDataAccessTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in com.graphhopper.storage.UnsafeDataAccessTest
+Running com.graphhopper.storage.GraphHopperStorageCHTest
+2018-09-26 21:52:45,042 [main] WARN  com.graphhopper.storage.CHGraphImpl - Setting weights smaller than 0.001 is not allowed in CHGraphImpl#setWeight. You passed: 1.0E-5 for the edge 2 from 0.0,0.0 to 0.0,0.0
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 sec - in com.graphhopper.storage.GraphHopperStorageCHTest
+Running com.graphhopper.storage.NativeFSLockFactoryTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.storage.NativeFSLockFactoryTest
+Running com.graphhopper.storage.StorablePropertiesTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.storage.StorablePropertiesTest
+Running com.graphhopper.storage.MMapDirectoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in com.graphhopper.storage.MMapDirectoryTest
+Running com.graphhopper.storage.GraphEdgeIdFinderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in com.graphhopper.storage.GraphEdgeIdFinderTest
+Running com.graphhopper.storage.RAMIntDataAccessTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.graphhopper.storage.RAMIntDataAccessTest
+Running com.graphhopper.storage.MMapDataAccessTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.477 sec - in com.graphhopper.storage.MMapDataAccessTest
+Running com.graphhopper.storage.EdgeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.graphhopper.storage.EdgeTest
+Running com.graphhopper.storage.index.Location2IDQuadtreeTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec - in com.graphhopper.storage.index.Location2IDQuadtreeTest
+Running com.graphhopper.storage.index.Location2IDFullWithEdgesIndexTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec - in com.graphhopper.storage.index.Location2IDFullWithEdgesIndexTest
+Running com.graphhopper.storage.index.LocationIndexTreeTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.294 sec - in com.graphhopper.storage.index.LocationIndexTreeTest
+Running com.graphhopper.storage.index.BresenhamLineTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.storage.index.BresenhamLineTest
+Running com.graphhopper.storage.index.Location2IDFullIndexTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 sec - in com.graphhopper.storage.index.Location2IDFullIndexTest
+Running com.graphhopper.storage.index.LocationIndexTreeCHTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.368 sec - in com.graphhopper.storage.index.LocationIndexTreeCHTest
+Running com.graphhopper.storage.SimpleFSLockFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.graphhopper.storage.SimpleFSLockFactoryTest
+Running com.graphhopper.storage.GraphHopperStorageLMTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec - in com.graphhopper.storage.GraphHopperStorageLMTest
+Running com.graphhopper.storage.VLongStorageTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.storage.VLongStorageTest
+Running com.graphhopper.search.NameIndexTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.graphhopper.search.NameIndexTest
+Running com.graphhopper.coll.BitSetImplTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.coll.BitSetImplTest
+Running com.graphhopper.coll.GHLongIntBTreeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.graphhopper.coll.GHLongIntBTreeTest
+Running com.graphhopper.coll.GHTBitSetTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.coll.GHTBitSetTest
+Running com.graphhopper.coll.GHTreeMapComposedTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.graphhopper.coll.GHTreeMapComposedTest
+Running com.graphhopper.coll.CompressedArrayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in com.graphhopper.coll.CompressedArrayTest
+Running com.graphhopper.coll.OSMIDMapTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.graphhopper.coll.OSMIDMapTest
+Running com.graphhopper.coll.GHIntArrayListTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.coll.GHIntArrayListTest
+Running com.graphhopper.coll.GHSortedCollectionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.graphhopper.coll.GHSortedCollectionTest
+Running com.graphhopper.geohash.LinearKeyAlgoTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.geohash.LinearKeyAlgoTest
+Running com.graphhopper.geohash.SpatialKeyAlgoTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.geohash.SpatialKeyAlgoTest
+Running com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworksTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworksTest
+Running com.graphhopper.routing.subnetwork.SubnetworkStorageTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.routing.subnetwork.SubnetworkStorageTest
+Running com.graphhopper.routing.DijkstraOneToManyTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec - in com.graphhopper.routing.DijkstraOneToManyTest
+Running com.graphhopper.routing.DijkstraBidirectionRefTest
+Tests run: 112, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 sec - in com.graphhopper.routing.DijkstraBidirectionRefTest
+Running com.graphhopper.routing.util.AbstractFlagEncoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.graphhopper.routing.util.AbstractFlagEncoderTest
+Running com.graphhopper.routing.util.EncodedDoubleValueTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.routing.util.EncodedDoubleValueTest
+Running com.graphhopper.routing.util.RacingBikeFlagEncoderTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in com.graphhopper.routing.util.RacingBikeFlagEncoderTest
+Running com.graphhopper.routing.util.BikeFlagEncoderTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.graphhopper.routing.util.BikeFlagEncoderTest
+Running com.graphhopper.routing.util.FootFlagEncoderTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.graphhopper.routing.util.FootFlagEncoderTest
+Running com.graphhopper.routing.util.EncodingManagerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.graphhopper.routing.util.EncodingManagerTest
+Running com.graphhopper.routing.util.Bike2WeightFlagEncoderTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in com.graphhopper.routing.util.Bike2WeightFlagEncoderTest
+Running com.graphhopper.routing.util.DataFlagEncoderTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.graphhopper.routing.util.DataFlagEncoderTest
+Running com.graphhopper.routing.util.Car4WDFlagEncoderTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.graphhopper.routing.util.Car4WDFlagEncoderTest
+Running com.graphhopper.routing.util.HikeFlagEncoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.graphhopper.routing.util.HikeFlagEncoderTest
+Running com.graphhopper.routing.util.spatialrules.SpatialRuleLookupBuilderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.88 sec - in com.graphhopper.routing.util.spatialrules.SpatialRuleLookupBuilderTest
+Running com.graphhopper.routing.util.spatialrules.SpatialRuleLookupArrayTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in com.graphhopper.routing.util.spatialrules.SpatialRuleLookupArrayTest
+Running com.graphhopper.routing.util.EncodedValueTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.routing.util.EncodedValueTest
+Running com.graphhopper.routing.util.MountainBikeFlagEncoderTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.graphhopper.routing.util.MountainBikeFlagEncoderTest
+Running com.graphhopper.routing.util.tour.SinglePointTourTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.routing.util.tour.SinglePointTourTest
+Running com.graphhopper.routing.util.MotorcycleFlagEncoderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.routing.util.MotorcycleFlagEncoderTest
+Running com.graphhopper.routing.util.CarFlagEncoderTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in com.graphhopper.routing.util.CarFlagEncoderTest
+Running com.graphhopper.routing.util.NameSimilarityEdgeFilterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.graphhopper.routing.util.NameSimilarityEdgeFilterTest
+Running com.graphhopper.routing.lm.PrepareLandmarksTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in com.graphhopper.routing.lm.PrepareLandmarksTest
+Running com.graphhopper.routing.lm.LMAlgoFactoryDecoratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.routing.lm.LMAlgoFactoryDecoratorTest
+Running com.graphhopper.routing.lm.LandmarkStorageTest
+2018-09-26 21:52:48,657 [main] WARN  com.graphhopper.routing.lm.LandmarkStorage - next start node not found in big enough network of size 2, first element is 5, 0.0,0.0
+2018-09-26 21:52:48,659 [main] WARN  com.graphhopper.routing.lm.LandmarkStorage - landmark 0 (0.0,0.0): too many delta weights were maxed out (7/12). Factor is too small 11.771065848214286. To fix this increase maximum in config.yml: prepare.lm.weighting: fastest|maximum=792000.0000000001
+2018-09-26 21:52:48,659 [main] WARN  com.graphhopper.routing.lm.LandmarkStorage - landmark 1 (0.0,0.0): too many delta weights were maxed out (7/12). Factor is too small 11.771065848214286. To fix this increase maximum in config.yml: prepare.lm.weighting: fastest|maximum=576000.0
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in com.graphhopper.routing.lm.LandmarkStorageTest
+Running com.graphhopper.routing.ch.CHAlgoFactoryDecoratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.graphhopper.routing.ch.CHAlgoFactoryDecoratorTest
+Running com.graphhopper.routing.ch.PrepareContractionHierarchiesTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec - in com.graphhopper.routing.ch.PrepareContractionHierarchiesTest
+Running com.graphhopper.routing.ch.PrepareEncoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.routing.ch.PrepareEncoderTest
+Running com.graphhopper.routing.ch.NodeBasedNodeContractorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in com.graphhopper.routing.ch.NodeBasedNodeContractorTest
+Running com.graphhopper.routing.AStarTest
+Tests run: 112, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.286 sec - in com.graphhopper.routing.AStarTest
+Running com.graphhopper.routing.PathBidirRefTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.graphhopper.routing.PathBidirRefTest
+Running com.graphhopper.routing.template.RoundTripRoutingTemplateTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in com.graphhopper.routing.template.RoundTripRoutingTemplateTest
+Running com.graphhopper.routing.EdgeBasedRoutingAlgorithmTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec - in com.graphhopper.routing.EdgeBasedRoutingAlgorithmTest
+Running com.graphhopper.routing.QueryGraphTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in com.graphhopper.routing.QueryGraphTest
+Running com.graphhopper.routing.weighting.ShortFastestWeightingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.graphhopper.routing.weighting.ShortFastestWeightingTest
+Running com.graphhopper.routing.weighting.FastestWeightingTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.graphhopper.routing.weighting.FastestWeightingTest
+Running com.graphhopper.routing.weighting.GenericWeightingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.graphhopper.routing.weighting.GenericWeightingTest
+Running com.graphhopper.routing.weighting.BlockAreaWeightingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in com.graphhopper.routing.weighting.BlockAreaWeightingTest
+Running com.graphhopper.routing.weighting.AbstractWeightingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.graphhopper.routing.weighting.AbstractWeightingTest
+Running com.graphhopper.routing.AlternativeRouteTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.graphhopper.routing.AlternativeRouteTest
+Running com.graphhopper.routing.DijkstraTest
+Tests run: 112, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.256 sec - in com.graphhopper.routing.DijkstraTest
+Running com.graphhopper.routing.PathTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 sec - in com.graphhopper.routing.PathTest
+Running com.graphhopper.routing.DijkstraBidirectionCHTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.307 sec - in com.graphhopper.routing.DijkstraBidirectionCHTest
+Running com.graphhopper.routing.AStarBidirectionTest
+Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.307 sec - in com.graphhopper.routing.AStarBidirectionTest
+Running com.graphhopper.apache.commons.lang3.StringUtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.graphhopper.apache.commons.lang3.StringUtilsTest
+Running com.graphhopper.apache.commons.collections.IntDoubleBinaryHeapTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.graphhopper.apache.commons.collections.IntDoubleBinaryHeapTest
+
+Results :
+
+Tests run: 1402, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-core ---
+[INFO] 
+[INFO] ---------------< com.graphhopper:graphhopper-reader-osm >---------------
+[INFO] Building GraphHopper Reader for OpenStreetMap Data 0.12-SNAPSHOT  [5/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-reader-osm >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-reader-osm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/reader-osm/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-reader-osm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-reader-osm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-reader-osm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-reader-osm ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-reader-osm ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-reader-osm ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.reader.osm.OSMTurnRelationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.426 sec - in com.graphhopper.reader.osm.OSMTurnRelationTest
+Running com.graphhopper.reader.osm.OSMTagParserTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in com.graphhopper.reader.osm.OSMTagParserTest
+Running com.graphhopper.reader.osm.OSMReaderTest
+2018-09-26 21:52:52,169 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2018-09-26 21:52:52,174 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,174 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,174 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,818 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2018-09-26 21:52:52,819 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,819 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,819 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,865 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2018-09-26 21:52:52,866 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,866 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2018-09-26 21:52:52,866 [main] WARN  com.graphhopper.routing.util.AbstractFlagEncoder - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.333 sec - in com.graphhopper.reader.osm.OSMReaderTest
+Running com.graphhopper.reader.osm.GraphHopperOSMTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.082 sec - in com.graphhopper.reader.osm.GraphHopperOSMTest
+
+Results :
+
+Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-reader-osm <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-reader-osm ---
+[INFO] 
+[INFO] ---------------< com.graphhopper:graphhopper-isochrone >----------------
+[INFO] Building GraphHopper Isochrone 0.12-SNAPSHOT                      [6/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-isochrone >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-isochrone ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/isochrone/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-isochrone ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-isochrone ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/isochrone/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-isochrone ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-isochrone ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-isochrone ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-isochrone ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.isochrone.algorithm.IsochroneTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.308 sec - in com.graphhopper.isochrone.algorithm.IsochroneTest
+Running com.graphhopper.isochrone.algorithm.RasterHullBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec - in com.graphhopper.isochrone.algorithm.RasterHullBuilderTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-isochrone <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-isochrone ---
+[INFO] 
+[INFO] --------------< com.graphhopper:graphhopper-reader-gtfs >---------------
+[INFO] Building GraphHopper Reader for Gtfs Data 0.12-SNAPSHOT           [7/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-reader-gtfs >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-reader-gtfs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/reader-gtfs/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-reader-gtfs ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-reader-gtfs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/reader-gtfs/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-reader-gtfs ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-reader-gtfs ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-reader-gtfs ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-reader-gtfs ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.reader.gtfs.GraphExplorerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.877 sec - in com.graphhopper.reader.gtfs.GraphExplorerTest
+Running com.graphhopper.reader.gtfs.WrapperGraphTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.graphhopper.reader.gtfs.WrapperGraphTest
+Running com.graphhopper.gtfs.fare.FareTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.972 sec - in com.graphhopper.gtfs.fare.FareTest
+
+Results :
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-reader-gtfs <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-reader-gtfs ---
+[INFO] 
+[INFO] -----------------< com.graphhopper:graphhopper-tools >------------------
+[INFO] Building GraphHopper Tools 0.12-SNAPSHOT                          [8/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-tools >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-tools ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/tools/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-tools ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-tools ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-tools ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-tools ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.tools.QueryTortureTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in com.graphhopper.tools.QueryTortureTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-tools <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-tools ---
+[INFO] 
+[INFO] --------------< com.graphhopper:directions-api-client-hc >--------------
+[INFO] Building GraphHopper Directions API hand-crafted Java Client. 0.12-SNAPSHOT [9/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ directions-api-client-hc >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ directions-api-client-hc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/client-hc/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ directions-api-client-hc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ directions-api-client-hc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ directions-api-client-hc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ directions-api-client-hc ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ directions-api-client-hc ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ directions-api-client-hc ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.api.GoogleMatrixSyncRequesterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.952 sec - in com.graphhopper.api.GoogleMatrixSyncRequesterTest
+Running com.graphhopper.api.GHMatrixSyncTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 sec - in com.graphhopper.api.GHMatrixSyncTest
+Running com.graphhopper.api.GHMatrixBatchTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec - in com.graphhopper.api.GHMatrixBatchTest
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ directions-api-client-hc <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ directions-api-client-hc ---
+[INFO] 
+[INFO] ---------------< com.graphhopper:graphhopper-web-bundle >---------------
+[INFO] Building GraphHopper Dropwizard Bundle 0.12-SNAPSHOT             [10/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-web-bundle >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-web-bundle ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/web-bundle/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-web-bundle ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-web-bundle ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ghlgh/Desktop/gluo-graphhopper/web-bundle/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-web-bundle ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-web-bundle ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-web-bundle ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-web-bundle ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-web-bundle <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-web-bundle ---
+[INFO] 
+[INFO] ------------------< com.graphhopper:graphhopper-web >-------------------
+[INFO] Building GraphHopper Web 0.12-SNAPSHOT                           [11/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) > [ekstazi]test @ graphhopper-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ graphhopper-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 122 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ graphhopper-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ graphhopper-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ graphhopper-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (ekstazi) @ graphhopper-web ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:select (default-cli) @ graphhopper-web ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ graphhopper-web ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.graphhopper.http.GraphHopperDataFlagEncoderSpatialRulesTest
+21:53:03.319 [main] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+21:53:03.332 [main] INFO org.eclipse.jetty.util.log - Logging initialized @806ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2018-09-27 02:53:04,516] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:04,518] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:05,381] com.graphhopper.routing.util.spatialrules.SpatialRuleLookupBuilder: Created the SpatialRuleLookup with the following rules: [AUT, DEU]
+INFO  [2018-09-27 02:53:05,381] com.graphhopper.routing.util.spatialrules.SpatialRuleLookupHelper: Set spatial rule lookup with 3 rules
+INFO  [2018-09-27 02:53:05,513] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:05,534] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:05,676] org.eclipse.jetty.setuid.SetUIDListener: Opened application@20011bf{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:05,676] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@51d9b06c{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:05,680] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:05,717] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:05,719] com.graphhopper.reader.osm.GraphHopperOSM: graph generic|RAM_STORE|2D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308
+INFO  [2018-09-27 02:53:05,758] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/north-bayreuth.osm.gz
+INFO  [2018-09-27 02:53:05,759] com.graphhopper.reader.osm.GraphHopperOSM: using generic|RAM_STORE|2D|NoExt|,,,,, memory:totalMB:96, usedMB:37
+INFO  [2018-09-27 02:53:06,152] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):14 166, totalMB:96, usedMB:30
+INFO  [2018-09-27 02:53:06,350] com.graphhopper.reader.osm.OSMReader: 58 632, now parsing ways
+INFO  [2018-09-27 02:53:06,502] com.graphhopper.reader.osm.OSMReader: 66 433, now parsing relations
+INFO  [2018-09-27 02:53:06,526] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 2906, osmIdMap.size:14166, osmIdMap:0MB, nodeFlagsMap.size:0, relFlagsMap.size:0, zeroCounter:0 totalMB:95, usedMB:37
+INFO  [2018-09-27 02:53:06,528] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:06,531] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: start finding subnetworks (min:200, min one way:0) totalMB:95, usedMB:38
+INFO  [2018-09-27 02:53:06,553] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: 8 subnetworks found for generic, totalMB:95, usedMB:18
+INFO  [2018-09-27 02:53:06,556] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: optimize to remove subnetworks (8), unvisited-dead-end-nodes (0), maxEdges/node (7)
+INFO  [2018-09-27 02:53:06,573] com.graphhopper.reader.osm.GraphHopperOSM: edges: 3 704, nodes 2 886, there were 8 subnetworks. removed them => 20 less nodes
+INFO  [2018-09-27 02:53:06,616] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.038283117s, size:3 894, leafs:763, precision:300, depth:3, checksum:2886, entries:[64, 4, 4], entriesPerLeaf:5.1035385
+INFO  [2018-09-27 02:53:06,617] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph generic|RAM_STORE|2D|NoExt|5,14,4,3,3, details:edges:3 704(1MB), nodes:2 886(1MB), name:(1MB), geo:21 834(1MB), bounds:11.45781993399158,11.613424568178308,49.96733833031367,50.060249866401776, totalMB:95, usedMB:30)
+INFO  [2018-09-27 02:53:06,632] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:95, usedMB:32)
+INFO  [2018-09-27 02:53:06,634] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/north-bayreuth-gh/, data_reader_file:../core/files/north-bayreuth.osm.gz, flag_encoders:generic, edges:3 704(1MB), nodes:2 886(1MB), name:(1MB), geo:21 834(1MB), bounds:11.45781993399158,11.613424568178308,49.96733833031367,50.060249866401776
+INFO  [2018-09-27 02:53:07,483] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:07,485] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@b14b60a{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:07,491] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:07,507] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@58feb6b0{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:07,526] org.eclipse.jetty.server.AbstractConnector: Started application@20011bf{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:07,527] org.eclipse.jetty.server.AbstractConnector: Started admin@51d9b06c{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:07,527] org.eclipse.jetty.server.Server: Started @5001ms
+INFO  [2018-09-27 02:53:08,088] com.graphhopper.resources.RouteResource: point=49.995933,11.54809&point=50.004871,11.517191&vehicle=generic 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [49.995933,11.54809, 50.004871,11.517191], took:0.12585293, , fastest, generic, alternatives: 1, distance0: 7413.0371324863745, weight0: 730744.0, time0: 12min, points0: 152, debugInfo: idLookup:0.023058008s; tmode:NODE_BASED; , algoInit:0.022598168s, astarbi|beeline-routing:0.022680145s, extract time:0.001464471;visited nodes sum: 508;, algoInit:0.022598168s, astarbi|beeline-routing:0.022680145s, extract time:0.001464471;visited nodes sum: 508, simplify (177->177)
+127.0.0.1 - - [27/Sep/2018:02:53:08 +0000] "GET /route?point=49.995933,11.54809&point=50.004871,11.517191&vehicle=generic HTTP/1.1" 200 2734 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 419
+INFO  [2018-09-27 02:53:08,212] org.eclipse.jetty.server.AbstractConnector: Stopped application@20011bf{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:08,213] org.eclipse.jetty.server.AbstractConnector: Stopped admin@51d9b06c{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:08,215] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@58feb6b0{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:08,219] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@b14b60a{/,null,UNAVAILABLE}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.928 sec - in com.graphhopper.http.GraphHopperDataFlagEncoderSpatialRulesTest
+Running com.graphhopper.http.GraphHopperLandmarksTest
+INFO  [2018-09-27 02:53:08,938] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:08,938] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:08,988] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:08,990] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:08,999] org.eclipse.jetty.setuid.SetUIDListener: Opened application@7538cfe6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:08,999] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1f4dd016{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:08,999] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:09,010] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:09,011] com.graphhopper.reader.osm.GraphHopperOSM: graph CH|car|RAM_STORE|2D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308, CHGraph|fastest|car, shortcuts:0, nodesCH:(0MB)
+INFO  [2018-09-27 02:53:09,014] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/belarus-east.osm.gz
+INFO  [2018-09-27 02:53:09,014] com.graphhopper.reader.osm.GraphHopperOSM: using CH|car|RAM_STORE|2D|NoExt|,,,,, memory:totalMB:96, usedMB:32
+INFO  [2018-09-27 02:53:09,025] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):238, totalMB:96, usedMB:35
+INFO  [2018-09-27 02:53:09,037] com.graphhopper.reader.osm.OSMReader: 3 091, now parsing ways
+INFO  [2018-09-27 02:53:09,041] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 9, osmIdMap.size:238, osmIdMap:0MB, nodeFlagsMap.size:0, relFlagsMap.size:0, zeroCounter:0 totalMB:93, usedMB:23
+INFO  [2018-09-27 02:53:09,041] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:09,042] com.graphhopper.reader.osm.GraphHopperOSM: edges: 8, nodes 9, there were -1 subnetworks. removed them => 0 less nodes
+INFO  [2018-09-27 02:53:09,048] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.005600081s, size:131, leafs:128, precision:300, depth:3, checksum:9, entries:[64, 16, 4], entriesPerLeaf:1.0234375
+INFO  [2018-09-27 02:53:09,054] com.graphhopper.routing.ch.CHAlgoFactoryDecorator: 1/1 calling CH prepare.doWork for fastest|car ... (totalMB:93, usedMB:28)
+INFO  [2018-09-27 02:53:09,070] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:          9, shortcuts:          0, updates:  0, checked-nodes:          0, t(total):   0.01,  t(period):   0.00, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.01, t(dijk):   0.00, meanDegree: 0.00, dijkstras:         20, mem:        0MB, totalMB:93, usedMB:34
+INFO  [2018-09-27 02:53:09,072] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:          0, shortcuts:          1, updates:  0, checked-nodes:          9, t(total):   0.02,  t(period):   0.00, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.01, t(dijk):   0.00, meanDegree: 0.74, dijkstras:         22, mem:        0MB, totalMB:93, usedMB:35
+INFO  [2018-09-27 02:53:09,073] com.graphhopper.routing.ch.PrepareContractionHierarchies: took:0s , new shortcuts: 1, initSize:9, prepare|fastest, periodic:20, lazy:10, neighbor:20, t(total):   0.02,  t(period):   0.00, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.01, t(dijk):   0.00, lazy-overhead: 0%, totalMB:93, usedMB:35
+INFO  [2018-09-27 02:53:09,073] com.graphhopper.routing.ch.PrepareContractionHierarchies: graph now - num edges: 8, num nodes: 9, num shortcuts: 1
+INFO  [2018-09-27 02:53:12,429] com.graphhopper.routing.util.spatialrules.SpatialRuleLookupBuilder: Created the SpatialRuleLookup with the following rules: [RU, TR, IR, AFRICA, EU, SOUTH-EAST ASIA]
+INFO  [2018-09-27 02:53:12,431] com.graphhopper.routing.lm.LMAlgoFactoryDecorator: 1/1 calling LM prepare.doWork for fastest|car ... (totalMB:95, usedMB:31)
+INFO  [2018-09-27 02:53:12,431] com.graphhopper.routing.lm.PrepareLandmarks: Start calculating 16 landmarks, default active lms:8, weighting:LM_BFS|car, totalMB:95, usedMB:31
+INFO  [2018-09-27 02:53:12,456] com.graphhopper.routing.lm.PrepareLandmarks: Calculated landmarks for 2 subnetworks, took:0.023919124 => { "type": "FeatureCollection", "features": [{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.061679446585764, 55.96136575850917]},  "properties":{"node_index":4,"subnetwork":1,"lm_index":0}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":1}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":2}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":3}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":4}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":5}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":6}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":7}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":8}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":9}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":10}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":11}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":12}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":13}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":14}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.15376359568008, 56.00308882452001]},  "properties":{"node_index":0,"subnetwork":1,"lm_index":15}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.208730441527003, 56.026149675834546]},  "properties":{"node_index":7,"subnetwork":2,"lm_index":0}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":1}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.54002684816778, 56.0503076251665]},  "properties":{"node_index":5,"subnetwork":2,"lm_index":2}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.19313581719553, 56.008006021559375]},  "properties":{"node_index":1,"subnetwork":2,"lm_index":3}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.216685799137185, 56.01243874458459]},  "properties":{"node_index":2,"subnetwork":2,"lm_index":4}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.180085379930258, 56.00832099486115]},  "properties":{"node_index":3,"subnetwork":2,"lm_index":5}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":6}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":7}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":8}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":9}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":10}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":11}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":12}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":13}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":14}},{ "type": "Feature", "geometry": {"type": "Point", "coordinates": [29.18411986941367, 56.010212138523435]},  "properties":{"node_index":8,"subnetwork":2,"lm_index":15}}]}, stored weights:16, nodes:9, totalMB:95, usedMB:41
+INFO  [2018-09-27 02:53:12,456] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph CH|car|RAM_STORE|2D|NoExt|5,14,4,3,3, details:edges:8(1MB), nodes:9(1MB), name:(1MB), geo:408(1MB), bounds:29.061679446585764,29.54002684816778,55.96136575850917,56.0503076251665, CHGraph|fastest|car, shortcuts:1, nodesCH:(1MB), totalMB:95, usedMB:41)
+INFO  [2018-09-27 02:53:12,469] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:95, usedMB:43)
+INFO  [2018-09-27 02:53:12,469] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/landmark-test-gh/, data_reader_file:../core/files/belarus-east.osm.gz, flag_encoders:car, edges:8(1MB), nodes:9(1MB), name:(1MB), geo:408(1MB), bounds:29.061679446585764,29.54002684816778,55.96136575850917,56.0503076251665, CHGraph|fastest|car, shortcuts:1, nodesCH:(1MB)
+INFO  [2018-09-27 02:53:12,629] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:12,630] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@64d93096{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:12,631] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:12,634] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@51df2a41{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:12,635] org.eclipse.jetty.server.AbstractConnector: Started application@7538cfe6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:12,636] org.eclipse.jetty.server.AbstractConnector: Started admin@1f4dd016{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:12,636] org.eclipse.jetty.server.Server: Started @10110ms
+ERROR [2018-09-27 02:53:12,714] com.graphhopper.resources.RouteResource: point=55.99022,29.129734&point=56.007787,29.208355&ch.disable=true 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [55.99022,29.129734, 56.007787,29.208355], took:0.013459438, , fastest, car, errors:[com.graphhopper.util.exceptions.ConnectionNotFoundException: Connection between locations not found. Different subnetworks 1 vs. 2]
+127.0.0.1 - - [27/Sep/2018:02:53:12 +0000] "GET /route?point=55.99022,29.129734&point=56.007787,29.208355&ch.disable=true HTTP/1.1" 400 249 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 44
+INFO  [2018-09-27 02:53:12,733] com.graphhopper.resources.RouteResource: point=55.99022,29.129734&point=56.007787,29.208355&ch.disable=true&lm.disable=true 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [55.99022,29.129734, 56.007787,29.208355], took:0.003784862, , fastest, car, alternatives: 1, distance0: 5788.683751711455, weight0: 619.0417800583523, time0: 10min, points0: 43, debugInfo: idLookup:0.001086236s; tmode:NODE_BASED; , algoInit:1.67288E-4s, astarbi|beeline-routing:6.09836E-4s, extract time:1.63947E-4;visited nodes sum: 8;, algoInit:1.67288E-4s, astarbi|beeline-routing:6.09836E-4s, extract time:1.63947E-4;visited nodes sum: 8, simplify (45->45)
+127.0.0.1 - - [27/Sep/2018:02:53:12 +0000] "GET /route?point=55.99022,29.129734&point=56.007787,29.208355&ch.disable=true&lm.disable=true HTTP/1.1" 200 953 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 15
+INFO  [2018-09-27 02:53:12,751] com.graphhopper.resources.RouteResource: point=55.99022,29.129734&point=56.001069,29.150848 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [55.99022,29.129734, 56.001069,29.150848], took:0.004455951, , fastest, car, alternatives: 1, distance0: 1873.2891343477531, weight0: 224.79469612173037, time0: 4min, points0: 12, debugInfo: idLookup:6.56997E-4s; , algoInit:0.002432779s, dijkstrabi|ch-routing:6.61748E-4s, extract time:4.4753E-5;visited nodes sum: 6;, algoInit:0.002432779s, dijkstrabi|ch-routing:6.61748E-4s, extract time:4.4753E-5;visited nodes sum: 6, simplify (12->12)
+127.0.0.1 - - [27/Sep/2018:02:53:12 +0000] "GET /route?point=55.99022,29.129734&point=56.001069,29.150848 HTTP/1.1" 200 728 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 11
+INFO  [2018-09-27 02:53:12,760] com.graphhopper.resources.RouteResource: point=55.99022,29.129734&point=56.001069,29.150848&ch.disable=true 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [55.99022,29.129734, 56.001069,29.150848], took:0.002045048, , fastest, car, alternatives: 1, distance0: 1873.2891343477531, weight0: 224.79469612173037, time0: 4min, points0: 12, debugInfo: idLookup:7.39394E-4s; tmode:NODE_BASED; , algoInit:1.78809E-4s, astarbi|landmarks-routing:4.2655E-4s, extract time:1.3007E-5;visited nodes sum: 4;, algoInit:1.78809E-4s, astarbi|landmarks-routing:4.2655E-4s, extract time:1.3007E-5;visited nodes sum: 4, simplify (12->12)
+127.0.0.1 - - [27/Sep/2018:02:53:12 +0000] "GET /route?point=55.99022,29.129734&point=56.001069,29.150848&ch.disable=true HTTP/1.1" 200 728 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 7
+INFO  [2018-09-27 02:53:12,769] org.eclipse.jetty.server.AbstractConnector: Stopped application@7538cfe6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:12,770] org.eclipse.jetty.server.AbstractConnector: Stopped admin@1f4dd016{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:12,770] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@51df2a41{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:12,774] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@64d93096{/,null,UNAVAILABLE}
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.39 sec - in com.graphhopper.http.GraphHopperLandmarksTest
+Running com.graphhopper.http.resources.I18nResourceTest
+INFO  [2018-09-27 02:53:13,328] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:13,329] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:13,383] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:13,386] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:13,396] org.eclipse.jetty.setuid.SetUIDListener: Opened application@4e481512{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:13,396] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1ba98508{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:13,397] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:13,399] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:13,399] com.graphhopper.reader.osm.GraphHopperOSM: graph car|RAM_STORE|2D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308
+INFO  [2018-09-27 02:53:13,402] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/andorra.osm.pbf
+INFO  [2018-09-27 02:53:13,402] com.graphhopper.reader.osm.GraphHopperOSM: using car|RAM_STORE|2D|NoExt|,,,,, memory:totalMB:96, usedMB:42
+INFO  [2018-09-27 02:53:13,679] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):20 917, totalMB:95, usedMB:46
+INFO  [2018-09-27 02:53:13,760] com.graphhopper.reader.osm.OSMReader: 69 646, now parsing ways
+INFO  [2018-09-27 02:53:13,794] com.graphhopper.reader.osm.OSMReader: 72 371, now parsing relations
+INFO  [2018-09-27 02:53:13,794] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 1933, osmIdMap.size:20919, osmIdMap:0MB, nodeFlagsMap.size:2, relFlagsMap.size:0, zeroCounter:2 totalMB:94, usedMB:57
+INFO  [2018-09-27 02:53:13,795] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:13,795] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: start finding subnetworks (min:200, min one way:0) totalMB:94, usedMB:57
+INFO  [2018-09-27 02:53:13,804] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: 16 subnetworks found for car, totalMB:94, usedMB:58
+INFO  [2018-09-27 02:53:13,805] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: optimize to remove subnetworks (16), unvisited-dead-end-nodes (0), maxEdges/node (4)
+INFO  [2018-09-27 02:53:13,818] com.graphhopper.reader.osm.GraphHopperOSM: edges: 2 261, nodes 1 889, there were 16 subnetworks. removed them => 44 less nodes
+INFO  [2018-09-27 02:53:13,831] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.012860927s, size:2 485, leafs:748, precision:300, depth:3, checksum:1889, entries:[64, 16, 4], entriesPerLeaf:3.3221924
+INFO  [2018-09-27 02:53:13,831] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph car|RAM_STORE|2D|NoExt|5,14,4,3,3, details:edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408, totalMB:94, usedMB:42)
+INFO  [2018-09-27 02:53:13,840] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:94, usedMB:45)
+INFO  [2018-09-27 02:53:13,840] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/andorra-gh/, data_reader_file:../core/files/andorra.osm.pbf, flag_encoders:car, edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408
+INFO  [2018-09-27 02:53:13,969] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:13,970] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@464abed{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:13,971] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:13,974] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@5c46a957{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:13,975] org.eclipse.jetty.server.AbstractConnector: Started application@4e481512{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:13,976] org.eclipse.jetty.server.AbstractConnector: Started admin@1ba98508{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:13,976] org.eclipse.jetty.server.Server: Started @11450ms
+127.0.0.1 - - [27/Sep/2018:02:53:14 +0000] "GET /i18n HTTP/1.1" 200 2320 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 47
+127.0.0.1 - - [27/Sep/2018:02:53:14 +0000] "GET /i18n/de HTTP/1.1" 200 4827 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 5
+INFO  [2018-09-27 02:53:14,065] org.eclipse.jetty.server.AbstractConnector: Stopped application@4e481512{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:14,066] org.eclipse.jetty.server.AbstractConnector: Stopped admin@1ba98508{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:14,066] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@5c46a957{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:14,068] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@464abed{/,null,UNAVAILABLE}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.084 sec - in com.graphhopper.http.resources.I18nResourceTest
+Running com.graphhopper.http.resources.ChangeGraphResourceTest
+INFO  [2018-09-27 02:53:14,410] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:14,411] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:14,452] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:14,453] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:14,462] org.eclipse.jetty.setuid.SetUIDListener: Opened application@5c94d4b8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:14,462] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@4400026{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:14,462] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:14,464] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:14,464] com.graphhopper.reader.osm.GraphHopperOSM: graph car|RAM_STORE|2D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308
+INFO  [2018-09-27 02:53:14,467] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/andorra.osm.pbf
+INFO  [2018-09-27 02:53:14,467] com.graphhopper.reader.osm.GraphHopperOSM: using car|RAM_STORE|2D|NoExt|,,,,, memory:totalMB:96, usedMB:56
+INFO  [2018-09-27 02:53:14,543] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):20 917, totalMB:95, usedMB:61
+INFO  [2018-09-27 02:53:14,606] com.graphhopper.reader.osm.OSMReader: 69 646, now parsing ways
+INFO  [2018-09-27 02:53:14,636] com.graphhopper.reader.osm.OSMReader: 72 371, now parsing relations
+INFO  [2018-09-27 02:53:14,636] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 1933, osmIdMap.size:20919, osmIdMap:0MB, nodeFlagsMap.size:2, relFlagsMap.size:0, zeroCounter:2 totalMB:94, usedMB:49
+INFO  [2018-09-27 02:53:14,637] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:14,637] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: start finding subnetworks (min:200, min one way:0) totalMB:94, usedMB:49
+INFO  [2018-09-27 02:53:14,645] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: 16 subnetworks found for car, totalMB:94, usedMB:50
+INFO  [2018-09-27 02:53:14,646] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: optimize to remove subnetworks (16), unvisited-dead-end-nodes (0), maxEdges/node (4)
+INFO  [2018-09-27 02:53:14,658] com.graphhopper.reader.osm.GraphHopperOSM: edges: 2 261, nodes 1 889, there were 16 subnetworks. removed them => 44 less nodes
+INFO  [2018-09-27 02:53:14,669] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.011370775s, size:2 485, leafs:748, precision:300, depth:3, checksum:1889, entries:[64, 16, 4], entriesPerLeaf:3.3221924
+INFO  [2018-09-27 02:53:14,670] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph car|RAM_STORE|2D|NoExt|5,14,4,3,3, details:edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408, totalMB:94, usedMB:57)
+INFO  [2018-09-27 02:53:14,679] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:94, usedMB:59)
+INFO  [2018-09-27 02:53:14,679] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/andorra-gh/, data_reader_file:../core/files/andorra.osm.pbf, flag_encoders:car, edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408
+INFO  [2018-09-27 02:53:14,796] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    POST    /change (com.graphhopper.resources.ChangeGraphResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:14,798] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@58e9e852{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:14,799] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:14,801] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@279e4506{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:14,802] org.eclipse.jetty.server.AbstractConnector: Started application@5c94d4b8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:14,803] org.eclipse.jetty.server.AbstractConnector: Started admin@4400026{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:14,803] org.eclipse.jetty.server.Server: Started @12277ms
+INFO  [2018-09-27 02:53:14,883] com.graphhopper.resources.RouteResource: point=42.531453,1.518946&point=42.511178,1.54006 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.531453,1.518946, 42.511178,1.54006], took:0.018773228, , fastest, car, alternatives: 1, distance0: 3179.891259948685, weight0: 181.8951890909483, time0: 3min, points0: 85, debugInfo: idLookup:0.00755532s; tmode:NODE_BASED; , algoInit:0.001724229s, astarbi|beeline-routing:0.001901336s, extract time:3.84304E-4;visited nodes sum: 88;, algoInit:0.001724229s, astarbi|beeline-routing:0.001901336s, extract time:3.84304E-4;visited nodes sum: 88, simplify (105->105)
+127.0.0.1 - - [27/Sep/2018:02:53:14 +0000] "GET /route?point=42.531453,1.518946&point=42.511178,1.54006 HTTP/1.1" 200 1982 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 65
+127.0.0.1 - - [27/Sep/2018:02:53:14 +0000] "POST /change HTTP/1.1" 200 13 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 30
+INFO  [2018-09-27 02:53:14,948] com.graphhopper.resources.RouteResource: point=42.531453,1.518946&point=42.511178,1.54006 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.531453,1.518946, 42.511178,1.54006], took:0.00510623, , fastest, car, alternatives: 1, distance0: 5532.769259948686, weight0: 354.2773337063329, time0: 6min, points0: 83, debugInfo: idLookup:0.001737447s; tmode:NODE_BASED; , algoInit:1.48573E-4s, astarbi|beeline-routing:0.001256466s, extract time:1.7756E-4;visited nodes sum: 396;, algoInit:1.48573E-4s, astarbi|beeline-routing:0.001256466s, extract time:1.7756E-4;visited nodes sum: 396, simplify (105->105)
+127.0.0.1 - - [27/Sep/2018:02:53:14 +0000] "GET /route?point=42.531453,1.518946&point=42.511178,1.54006 HTTP/1.1" 200 2235 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 10
+INFO  [2018-09-27 02:53:14,956] org.eclipse.jetty.server.AbstractConnector: Stopped application@5c94d4b8{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:14,957] org.eclipse.jetty.server.AbstractConnector: Stopped admin@4400026{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:14,957] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@279e4506{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:14,959] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@58e9e852{/,null,UNAVAILABLE}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.885 sec - in com.graphhopper.http.resources.ChangeGraphResourceTest
+Running com.graphhopper.http.resources.RouteResourceWithEleTest
+INFO  [2018-09-27 02:53:15,291] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:15,291] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:15,344] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:15,347] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:15,358] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1ca876b7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:15,358] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@36ba9aa3{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:15,358] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:15,360] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:15,360] com.graphhopper.reader.osm.GraphHopperOSM: graph car|RAM_STORE|3D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308
+INFO  [2018-09-27 02:53:15,362] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/monaco.osm.gz
+INFO  [2018-09-27 02:53:15,363] com.graphhopper.reader.osm.GraphHopperOSM: using car|RAM_STORE|3D|NoExt|,,,,, memory:totalMB:96, usedMB:62
+INFO  [2018-09-27 02:53:15,422] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):3 020, totalMB:96, usedMB:73
+INFO  [2018-09-27 02:53:15,424] com.graphhopper.reader.dem.SRTMProvider: srtm Elevation Provider, from: https://srtm.kurviger.de/SRTM3/, to: /Users/ghlgh/Desktop/gluo-graphhopper/core/files, as: MMAP_STORE using calcmean: false
+INFO  [2018-09-27 02:53:15,594] com.graphhopper.reader.osm.OSMReader: 13 740, now parsing ways
+INFO  [2018-09-27 02:53:15,621] com.graphhopper.reader.osm.OSMReader: 15 684, now parsing relations
+INFO  [2018-09-27 02:53:15,624] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 576, osmIdMap.size:3021, osmIdMap:0MB, nodeFlagsMap.size:1, relFlagsMap.size:0, zeroCounter:1 totalMB:96, usedMB:80
+INFO  [2018-09-27 02:53:15,708] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:15,709] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: start finding subnetworks (min:200, min one way:0) totalMB:92, usedMB:24
+INFO  [2018-09-27 02:53:15,712] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: 5 subnetworks found for car, totalMB:92, usedMB:26
+INFO  [2018-09-27 02:53:15,712] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: optimize to remove subnetworks (5), unvisited-dead-end-nodes (0), maxEdges/node (5)
+INFO  [2018-09-27 02:53:15,715] com.graphhopper.reader.osm.GraphHopperOSM: edges: 724, nodes 567, there were 5 subnetworks. removed them => 9 less nodes
+INFO  [2018-09-27 02:53:15,722] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.006304205s, size:562, leafs:35, precision:300, depth:2, checksum:567, entries:[16, 4], entriesPerLeaf:16.057142
+INFO  [2018-09-27 02:53:15,722] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph car|RAM_STORE|3D|NoExt|5,14,4,3,3, details:edges:724(1MB), nodes:567(1MB), name:(1MB), geo:5 993(1MB), bounds:7.404341341652155,7.439277859910082,43.72177128616954,43.75196271580374,-2.0,189.0, totalMB:92, usedMB:30)
+INFO  [2018-09-27 02:53:15,731] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:92, usedMB:32)
+INFO  [2018-09-27 02:53:15,732] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/monaco-gh/, data_reader_file:../core/files/monaco.osm.gz, flag_encoders:car, edges:724(1MB), nodes:567(1MB), name:(1MB), geo:5 993(1MB), bounds:7.404341341652155,7.439277859910082,43.72177128616954,43.75196271580374,-2.0,189.0
+INFO  [2018-09-27 02:53:15,846] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:15,847] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@a19fe87{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:15,848] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:15,852] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@77fa509a{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:15,853] org.eclipse.jetty.server.AbstractConnector: Started application@1ca876b7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:15,853] org.eclipse.jetty.server.AbstractConnector: Started admin@36ba9aa3{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:15,854] org.eclipse.jetty.server.Server: Started @13327ms
+INFO  [2018-09-27 02:53:15,930] com.graphhopper.resources.RouteResource: point=43.730864,7.420771&point=43.727687,7.418737&points_encoded=false&elevation=true 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [43.730864,7.420771, 43.727687,7.418737], took:0.01540691, , fastest, car, alternatives: 1, distance0: 2651.202585806163, weight0: 299.67896414289334, time0: 5min, points0: 75, debugInfo: idLookup:0.005633785s; tmode:NODE_BASED; , algoInit:0.001669756s, astarbi|beeline-routing:0.001399379s, extract time:2.4238E-4;visited nodes sum: 132;, algoInit:0.001669756s, astarbi|beeline-routing:0.001399379s, extract time:2.4238E-4;visited nodes sum: 132, simplify (93->93)
+127.0.0.1 - - [27/Sep/2018:02:53:15 +0000] "GET /route?point=43.730864,7.420771&point=43.727687,7.418737&points_encoded=false&elevation=true HTTP/1.1" 200 3709 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 57
+INFO  [2018-09-27 02:53:15,962] com.graphhopper.resources.RouteResource: point=43.730864,7.420771&point=43.727687,7.418737&points_encoded=false 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [43.730864,7.420771, 43.727687,7.418737], took:0.005094616, , fastest, car, alternatives: 1, distance0: 2651.202585806163, weight0: 299.67896414289334, time0: 5min, points0: 75, debugInfo: idLookup:0.002540341s; tmode:NODE_BASED; , algoInit:1.37652E-4s, astarbi|beeline-routing:6.71728E-4s, extract time:1.09425E-4;visited nodes sum: 132;, algoInit:1.37652E-4s, astarbi|beeline-routing:6.71728E-4s, extract time:1.09425E-4;visited nodes sum: 132, simplify (93->93)
+127.0.0.1 - - [27/Sep/2018:02:53:15 +0000] "GET /route?point=43.730864,7.420771&point=43.727687,7.418737&points_encoded=false HTTP/1.1" 200 3326 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 11
+INFO  [2018-09-27 02:53:15,979] com.graphhopper.resources.RouteResource: point=43.730864,7.420771&point=43.727687,7.418737&points_encoded=false&elevation=false 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [43.730864,7.420771, 43.727687,7.418737], took:0.00820359, , fastest, car, alternatives: 1, distance0: 2651.202585806163, weight0: 299.67896414289334, time0: 5min, points0: 75, debugInfo: idLookup:0.00569294s; tmode:NODE_BASED; , algoInit:1.20502E-4s, astarbi|beeline-routing:6.48631E-4s, extract time:1.11887E-4;visited nodes sum: 132;, algoInit:1.20502E-4s, astarbi|beeline-routing:6.48631E-4s, extract time:1.11887E-4;visited nodes sum: 132, simplify (93->93)
+127.0.0.1 - - [27/Sep/2018:02:53:15 +0000] "GET /route?point=43.730864,7.420771&point=43.727687,7.418737&points_encoded=false&elevation=false HTTP/1.1" 200 3326 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 14
+INFO  [2018-09-27 02:53:15,987] org.eclipse.jetty.server.AbstractConnector: Stopped application@1ca876b7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:15,988] org.eclipse.jetty.server.AbstractConnector: Stopped admin@36ba9aa3{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:15,988] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@77fa509a{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:15,990] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@a19fe87{/,null,UNAVAILABLE}
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.012 sec - in com.graphhopper.http.resources.RouteResourceWithEleTest
+Running com.graphhopper.http.resources.NearestResourceTest
+INFO  [2018-09-27 02:53:16,306] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:16,307] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:16,349] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:16,351] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:16,358] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1bf2e21d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:16,359] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@2703fabd{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:16,359] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:16,361] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:16,361] com.graphhopper.reader.osm.GraphHopperOSM: graph CH|car|RAM_STORE|2D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308, CHGraph|fastest|car, shortcuts:0, nodesCH:(0MB)
+INFO  [2018-09-27 02:53:16,367] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/andorra.osm.pbf
+INFO  [2018-09-27 02:53:16,367] com.graphhopper.reader.osm.GraphHopperOSM: using CH|car|RAM_STORE|2D|NoExt|,,,,, memory:totalMB:96, usedMB:31
+INFO  [2018-09-27 02:53:16,424] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):20 917, totalMB:95, usedMB:33
+INFO  [2018-09-27 02:53:16,464] com.graphhopper.reader.osm.OSMReader: 69 646, now parsing ways
+INFO  [2018-09-27 02:53:16,487] com.graphhopper.reader.osm.OSMReader: 72 371, now parsing relations
+INFO  [2018-09-27 02:53:16,487] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 1933, osmIdMap.size:20919, osmIdMap:0MB, nodeFlagsMap.size:2, relFlagsMap.size:0, zeroCounter:2 totalMB:86, usedMB:50
+INFO  [2018-09-27 02:53:16,487] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:16,488] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: start finding subnetworks (min:200, min one way:0) totalMB:86, usedMB:50
+INFO  [2018-09-27 02:53:16,491] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: 16 subnetworks found for car, totalMB:86, usedMB:51
+INFO  [2018-09-27 02:53:16,492] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: optimize to remove subnetworks (16), unvisited-dead-end-nodes (0), maxEdges/node (4)
+INFO  [2018-09-27 02:53:16,500] com.graphhopper.reader.osm.GraphHopperOSM: edges: 2 261, nodes 1 889, there were 16 subnetworks. removed them => 44 less nodes
+INFO  [2018-09-27 02:53:16,513] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.012560044s, size:2 485, leafs:748, precision:300, depth:3, checksum:1889, entries:[64, 16, 4], entriesPerLeaf:3.3221924
+INFO  [2018-09-27 02:53:16,515] com.graphhopper.routing.ch.CHAlgoFactoryDecorator: 1/1 calling CH prepare.doWork for fastest|car ... (totalMB:86, usedMB:58)
+INFO  [2018-09-27 02:53:16,544] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:      1 889, shortcuts:          0, updates:  0, checked-nodes:          0, t(total):   0.03,  t(period):   0.02, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.00, t(dijk):   0.01, meanDegree: 1.00, dijkstras:      5 655, mem:        0MB, totalMB:91, usedMB:43
+INFO  [2018-09-27 02:53:16,557] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:      1 511, shortcuts:          1, updates:  1, checked-nodes:        378, t(total):   0.04,  t(period):   0.03, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.01, t(dijk):   0.01, meanDegree: 1.00, dijkstras:     10 122, mem:        0MB, totalMB:91, usedMB:44
+INFO  [2018-09-27 02:53:16,602] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:      1 133, shortcuts:        296, updates:  2, checked-nodes:        756, t(total):   0.09,  t(period):   0.06, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.01, t(other) :   0.01, t(dijk):   0.04, meanDegree: 1.36, dijkstras:     14 421, mem:        0MB, totalMB:91, usedMB:44
+INFO  [2018-09-27 02:53:16,643] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:        755, shortcuts:        685, updates:  3, checked-nodes:      1 134, t(total):   0.13,  t(period):   0.08, t(lazy):   0.00, t(neighbor):   0.01, t(contr):   0.02, t(other) :   0.02, t(dijk):   0.06, meanDegree: 1.99, dijkstras:     18 166, mem:        0MB, totalMB:91, usedMB:44
+INFO  [2018-09-27 02:53:16,667] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:        377, shortcuts:        964, updates:  4, checked-nodes:      1 512, t(total):   0.15,  t(period):   0.09, t(lazy):   0.00, t(neighbor):   0.02, t(contr):   0.03, t(other) :   0.02, t(dijk):   0.08, meanDegree: 1.95, dijkstras:     20 534, mem:        0MB, totalMB:91, usedMB:44
+INFO  [2018-09-27 02:53:16,697] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:         65, shortcuts:      1 426, updates:  5, checked-nodes:      1 890, t(total):   0.18,  t(period):   0.09, t(lazy):   0.01, t(neighbor):   0.03, t(contr):   0.04, t(other) :   0.02, t(dijk):   0.11, meanDegree: 2.87, dijkstras:     23 867, mem:        0MB, totalMB:91, usedMB:44
+INFO  [2018-09-27 02:53:16,703] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:          0, shortcuts:      1 517, updates:  5, checked-nodes:      1 966, t(total):   0.19,  t(period):   0.09, t(lazy):   0.01, t(neighbor):   0.03, t(contr):   0.04, t(other) :   0.02, t(dijk):   0.11, meanDegree: 0.85, dijkstras:     24 835, mem:        0MB, totalMB:91, usedMB:44
+INFO  [2018-09-27 02:53:16,704] com.graphhopper.routing.ch.PrepareContractionHierarchies: took:0s , new shortcuts: 1 517, initSize:1 889, prepare|fastest, periodic:20, lazy:10, neighbor:20, t(total):   0.19,  t(period):   0.09, t(lazy):   0.01, t(neighbor):   0.03, t(contr):   0.04, t(other) :   0.02, t(dijk):   0.11, lazy-overhead: 4%, totalMB:91, usedMB:44
+INFO  [2018-09-27 02:53:16,704] com.graphhopper.routing.ch.PrepareContractionHierarchies: graph now - num edges: 2 261, num nodes: 1 889, num shortcuts: 1 517
+INFO  [2018-09-27 02:53:16,704] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph CH|car|RAM_STORE|2D|NoExt|5,14,4,3,3, details:edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408, CHGraph|fastest|car, shortcuts:1 517, nodesCH:(1MB), totalMB:91, usedMB:45)
+INFO  [2018-09-27 02:53:16,718] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:91, usedMB:47)
+INFO  [2018-09-27 02:53:16,718] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/andorra-gh/, data_reader_file:../core/files/andorra.osm.pbf, flag_encoders:car, edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408, CHGraph|fastest|car, shortcuts:1 517, nodesCH:(1MB)
+INFO  [2018-09-27 02:53:16,814] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:16,814] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@4dd2f2db{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:16,815] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:16,817] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@7dd63fcc{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:16,818] org.eclipse.jetty.server.AbstractConnector: Started application@1bf2e21d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:16,818] org.eclipse.jetty.server.AbstractConnector: Started admin@2703fabd{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:16,819] org.eclipse.jetty.server.Server: Started @14292ms
+127.0.0.1 - - [27/Sep/2018:02:53:16 +0000] "GET /nearest?point=42.554851,1.536198 HTTP/1.1" 200 99 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 35
+INFO  [2018-09-27 02:53:16,918] org.eclipse.jetty.server.AbstractConnector: Stopped application@1bf2e21d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:16,919] org.eclipse.jetty.server.AbstractConnector: Stopped admin@2703fabd{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:16,919] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@7dd63fcc{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:16,921] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@4dd2f2db{/,null,UNAVAILABLE}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.961 sec - in com.graphhopper.http.resources.NearestResourceTest
+Running com.graphhopper.http.resources.RouteResourceTest
+INFO  [2018-09-27 02:53:17,275] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:17,275] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:17,310] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:17,312] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:17,320] org.eclipse.jetty.setuid.SetUIDListener: Opened application@4fdb4052{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:17,320] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@bdc5584{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:17,321] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:17,324] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:17,324] com.graphhopper.reader.osm.GraphHopperOSM: graph CH|car|RAM_STORE|2D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308, CHGraph|fastest|car, shortcuts:0, nodesCH:(0MB)
+INFO  [2018-09-27 02:53:17,327] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/andorra.osm.pbf
+INFO  [2018-09-27 02:53:17,327] com.graphhopper.reader.osm.GraphHopperOSM: using CH|car|RAM_STORE|2D|NoExt|,,,,, memory:totalMB:95, usedMB:60
+INFO  [2018-09-27 02:53:17,367] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):20 917, totalMB:95, usedMB:65
+INFO  [2018-09-27 02:53:17,407] com.graphhopper.reader.osm.OSMReader: 69 646, now parsing ways
+INFO  [2018-09-27 02:53:17,436] com.graphhopper.reader.osm.OSMReader: 72 371, now parsing relations
+INFO  [2018-09-27 02:53:17,437] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 1933, osmIdMap.size:20919, osmIdMap:0MB, nodeFlagsMap.size:2, relFlagsMap.size:0, zeroCounter:2 totalMB:92, usedMB:61
+INFO  [2018-09-27 02:53:17,437] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:17,438] com.graphhopper.reader.osm.GraphHopperOSM: edges: 2 261, nodes 1 933, there were -1 subnetworks. removed them => 0 less nodes
+INFO  [2018-09-27 02:53:17,447] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.009272437s, size:2 558, leafs:789, precision:300, depth:3, checksum:1933, entries:[64, 16, 4], entriesPerLeaf:3.2420785
+INFO  [2018-09-27 02:53:17,449] com.graphhopper.routing.ch.CHAlgoFactoryDecorator: 1/1 calling CH prepare.doWork for fastest|car ... (totalMB:92, usedMB:66)
+INFO  [2018-09-27 02:53:17,457] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:      1 933, shortcuts:          0, updates:  0, checked-nodes:          0, t(total):   0.01,  t(period):   0.01, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.00, t(dijk):   0.00, meanDegree: 1.00, dijkstras:      5 711, mem:        0MB, totalMB:92, usedMB:69
+INFO  [2018-09-27 02:53:17,463] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:      1 546, shortcuts:          1, updates:  1, checked-nodes:        387, t(total):   0.01,  t(period):   0.01, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.00, t(dijk):   0.00, meanDegree: 0.89, dijkstras:     10 278, mem:        0MB, totalMB:92, usedMB:69
+INFO  [2018-09-27 02:53:17,479] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:      1 159, shortcuts:        293, updates:  2, checked-nodes:        774, t(total):   0.03,  t(period):   0.02, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.00, t(other) :   0.01, t(dijk):   0.01, meanDegree: 1.84, dijkstras:     14 601, mem:        0MB, totalMB:92, usedMB:70
+INFO  [2018-09-27 02:53:17,498] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:        772, shortcuts:        702, updates:  3, checked-nodes:      1 161, t(total):   0.05,  t(period):   0.03, t(lazy):   0.00, t(neighbor):   0.00, t(contr):   0.01, t(other) :   0.01, t(dijk):   0.03, meanDegree: 2.00, dijkstras:     18 349, mem:        0MB, totalMB:92, usedMB:70
+INFO  [2018-09-27 02:53:17,513] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:        385, shortcuts:        964, updates:  4, checked-nodes:      1 548, t(total):   0.06,  t(period):   0.04, t(lazy):   0.00, t(neighbor):   0.01, t(contr):   0.01, t(other) :   0.01, t(dijk):   0.04, meanDegree: 1.91, dijkstras:     20 639, mem:        0MB, totalMB:92, usedMB:70
+INFO  [2018-09-27 02:53:17,530] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:         66, shortcuts:      1 381, updates:  5, checked-nodes:      1 935, t(total):   0.08,  t(period):   0.04, t(lazy):   0.00, t(neighbor):   0.01, t(contr):   0.01, t(other) :   0.01, t(dijk):   0.05, meanDegree: 1.97, dijkstras:     23 410, mem:        0MB, totalMB:92, usedMB:70
+INFO  [2018-09-27 02:53:17,537] com.graphhopper.routing.ch.PrepareContractionHierarchies: nodes:          0, shortcuts:      1 494, updates:  5, checked-nodes:      2 022, t(total):   0.09,  t(period):   0.04, t(lazy):   0.01, t(neighbor):   0.01, t(contr):   0.02, t(other) :   0.01, t(dijk):   0.05, meanDegree: 1.12, dijkstras:     24 591, mem:        0MB, totalMB:92, usedMB:70
+INFO  [2018-09-27 02:53:17,537] com.graphhopper.routing.ch.PrepareContractionHierarchies: took:0s , new shortcuts: 1 494, initSize:1 933, prepare|fastest, periodic:20, lazy:10, neighbor:20, t(total):   0.09,  t(period):   0.04, t(lazy):   0.01, t(neighbor):   0.01, t(contr):   0.02, t(other) :   0.01, t(dijk):   0.05, lazy-overhead: 4%, totalMB:92, usedMB:70
+INFO  [2018-09-27 02:53:17,537] com.graphhopper.routing.ch.PrepareContractionHierarchies: graph now - num edges: 2 261, num nodes: 1 933, num shortcuts: 1 494
+INFO  [2018-09-27 02:53:17,537] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph CH|car|RAM_STORE|2D|NoExt|5,14,4,3,3, details:edges:2 261(1MB), nodes:1 933(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408, CHGraph|fastest|car, shortcuts:1 494, nodesCH:(1MB), totalMB:92, usedMB:70)
+INFO  [2018-09-27 02:53:17,553] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:92, usedMB:72)
+INFO  [2018-09-27 02:53:17,554] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/andorra-gh/, data_reader_file:../core/files/andorra.osm.pbf, flag_encoders:car, edges:2 261(1MB), nodes:1 933(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408, CHGraph|fastest|car, shortcuts:1 494, nodesCH:(1MB)
+INFO  [2018-09-27 02:53:17,661] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:17,661] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@58e142be{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:17,662] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:17,664] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@5225e766{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:17,665] org.eclipse.jetty.server.AbstractConnector: Started application@4fdb4052{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:17,665] org.eclipse.jetty.server.AbstractConnector: Started admin@bdc5584{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:17,665] org.eclipse.jetty.server.Server: Started @15139ms
+127.0.0.1 - - [27/Sep/2018:02:53:17 +0000] "GET /route?point=1234&point=42.510071,1.548128 HTTP/1.1" 400 136 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 16
+ERROR [2018-09-27 02:53:17,733] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&type=gpx 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198], took:6.49967E-4, , fastest, car, errors:[java.lang.IllegalArgumentException: At least 2 points have to be specified, but was:1]
+127.0.0.1 - - [27/Sep/2018:02:53:17 +0000] "GET /route?point=42.554851,1.536198&type=gpx HTTP/1.1" 400 343 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 66
+127.0.0.1 - - [27/Sep/2018:02:53:17 +0000] "GET /route?point=42.554851,1.536198&heading=0&heading=0 HTTP/1.1" 400 254 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 3
+INFO  [2018-09-27 02:53:17,805] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198, 42.510071,1.548128], took:0.012155857, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 197, debugInfo: idLookup:0.002774028s; , algoInit:9.35452E-4s, dijkstrabi|ch-routing:0.00168496s, extract time:6.21943E-4;visited nodes sum: 26;, algoInit:9.35452E-4s, dijkstrabi|ch-routing:0.00168496s, extract time:6.21943E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:17 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128 HTTP/1.1" 200 3921 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 20
+INFO  [2018-09-27 02:53:18,097] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false 127.0.0.1 en_US okhttp/3.8.0 [42.554851,1.536198, 42.510071,1.548128], took:0.005454889, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 197, debugInfo: idLookup:8.85967E-4s; , algoInit:1.32377E-4s, dijkstrabi|ch-routing:7.96051E-4s, extract time:4.65339E-4;visited nodes sum: 26;, algoInit:1.32377E-4s, dijkstrabi|ch-routing:7.96051E-4s, extract time:4.65339E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false HTTP/1.1" 200 3920 "-" "okhttp/3.8.0" 14
+INFO  [2018-09-27 02:53:18,120] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&turn_description=false 127.0.0.1 en_US okhttp/3.8.0 [42.554851,1.536198, 42.510071,1.548128], took:0.003427387, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 197, debugInfo: idLookup:8.51549E-4s; , algoInit:1.10051E-4s, dijkstrabi|ch-routing:5.12682E-4s, extract time:2.91369E-4;visited nodes sum: 26;, algoInit:1.10051E-4s, dijkstrabi|ch-routing:5.12682E-4s, extract time:2.91369E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&turn_description=false HTTP/1.1" 200 3920 "-" "okhttp/3.8.0" 8
+INFO  [2018-09-27 02:53:18,131] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&type=gpx 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198, 42.510071,1.548128], took:0.004119986, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 197, debugInfo: idLookup:0.001284196s; , algoInit:1.90452E-4s, dijkstrabi|ch-routing:6.68202E-4s, extract time:3.29575E-4;visited nodes sum: 26;, algoInit:1.90452E-4s, dijkstrabi|ch-routing:6.68202E-4s, extract time:3.29575E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&type=gpx HTTP/1.1" 200 21296 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 17
+INFO  [2018-09-27 02:53:18,157] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&details=average_speed&details=edge_id&details=time 127.0.0.1 en_US okhttp/3.8.0 [42.554851,1.536198, 42.510071,1.548128], took:0.008762369, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 211, debugInfo: idLookup:7.90768E-4s; , algoInit:9.7604E-5s, dijkstrabi|ch-routing:3.35843E-4s, extract time:1.109E-4;visited nodes sum: 26;, algoInit:9.7604E-5s, dijkstrabi|ch-routing:3.35843E-4s, extract time:1.109E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&details=average_speed&details=edge_id&details=time HTTP/1.1" 200 6202 "-" "okhttp/3.8.0" 14
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851234,1.536198&point=42.510071,1.548128&points_encoded=false&elevation=true HTTP/1.1" 400 134 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 3
+INFO  [2018-09-27 02:53:18,188] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false 127.0.0.1 en_US okhttp/3.8.0 [42.554851,1.536198, 42.510071,1.548128], took:0.002928994, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 197, debugInfo: idLookup:8.77963E-4s; , algoInit:9.3582E-5s, dijkstrabi|ch-routing:2.94615E-4s, extract time:8.5158E-5;visited nodes sum: 26;, algoInit:9.3582E-5s, dijkstrabi|ch-routing:2.94615E-4s, extract time:8.5158E-5;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false HTTP/1.1" 200 3920 "-" "okhttp/3.8.0" 10
+INFO  [2018-09-27 02:53:18,202] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.531896,1.553278&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false 127.0.0.1 en_US okhttp/3.8.0 [42.554851,1.536198, 42.531896,1.553278, 42.510071,1.548128], took:0.005200532, , fastest, car, alternatives: 1, distance0: 20232.202884241833, weight0: 1229.3057105299472, time0: 20min, points0: 685, debugInfo: idLookup:0.001773607s; , algoInit:1.88917E-4s, dijkstrabi|ch-routing:3.709E-4s, extract time:5.0937E-5;visited nodes sum: 37;, algoInit:9.652E-5s, dijkstrabi|ch-routing:3.391E-4s, extract time:3.922E-5;visited nodes sum: 80;, algoInit:1.88917E-4s, dijkstrabi|ch-routing:3.709E-4s, extract time:5.0937E-5;visited nodes sum: 37;, algoInit:9.652E-5s, dijkstrabi|ch-routing:3.391E-4s, extract time:3.922E-5;visited nodes sum: 80, simplify (735->735)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.531896,1.553278&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false HTTP/1.1" 200 6509 "-" "okhttp/3.8.0" 9
+INFO  [2018-09-27 02:53:18,214] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&details=average_speed&details=edge_id 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198, 42.510071,1.548128], took:0.004026946, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 211, debugInfo: idLookup:0.001076264s; , algoInit:1.56997E-4s, dijkstrabi|ch-routing:5.05947E-4s, extract time:1.47721E-4;visited nodes sum: 26;, algoInit:1.56997E-4s, dijkstrabi|ch-routing:5.05947E-4s, extract time:1.47721E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&details=average_speed&details=edge_id HTTP/1.1" 200 5133 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 7
+ERROR [2018-09-27 02:53:18,224] com.graphhopper.resources.RouteResource: point=42.542078,1.45586&point=42.537841,1.439981&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&details=average_speed 127.0.0.1 en_US okhttp/3.8.0 [42.542078,1.45586, 42.537841,1.439981], took:0.001875637, , fastest, car, errors:[com.graphhopper.util.exceptions.ConnectionNotFoundException: Connection between locations not found]
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.542078,1.45586&point=42.537841,1.439981&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&details=average_speed HTTP/1.1" 400 187 "-" "okhttp/3.8.0" 5
+INFO  [2018-09-27 02:53:18,232] com.graphhopper.resources.RouteResource: point=42.554851234,1.536198&point=42.510071,1.548128&points_encoded=false 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851234,1.536198, 42.510071,1.548128], took:0.002704666, , fastest, car, alternatives: 1, distance0: 9204.540173426132, weight0: 553.1778332483058, time0: 9min, points0: 197, debugInfo: idLookup:0.001089624s; , algoInit:1.47849E-4s, dijkstrabi|ch-routing:3.0846E-4s, extract time:6.808E-5;visited nodes sum: 26;, algoInit:1.47849E-4s, dijkstrabi|ch-routing:3.0846E-4s, extract time:6.808E-5;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851234,1.536198&point=42.510071,1.548128&points_encoded=false HTTP/1.1" 200 7527 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 8
+INFO  [2018-09-27 02:53:18,242] com.graphhopper.resources.RouteResource: point=42.496696,1.499323&point=42.497257,1.501501&heading=240&heading=240&ch.force_heading=true 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.496696,1.499323, 42.497257,1.501501], took:0.002111613, , fastest, car, alternatives: 1, distance0: 964.5028937166438, weight0: 78.40949032292032, time0: 1min, points0: 31, debugInfo: idLookup:7.37384E-4s; , algoInit:1.35406E-4s, dijkstrabi|ch-routing:4.0233E-4s, extract time:2.8053E-5;visited nodes sum: 24;, algoInit:1.35406E-4s, dijkstrabi|ch-routing:4.0233E-4s, extract time:2.8053E-5;visited nodes sum: 24, simplify (38->38)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.496696,1.499323&point=42.497257,1.501501&heading=240&heading=240&ch.force_heading=true HTTP/1.1" 200 1563 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 6
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false HTTP/1.1" 400 156 "-" "okhttp/3.8.0" 3
+ERROR [2018-09-27 02:53:18,254] com.graphhopper.resources.RouteResource: point=0.0,0.0&point=0.0,0.0&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false 127.0.0.1 en_US okhttp/3.8.0 [0.0,0.0, 0.0,0.0], took:4.87919E-4, , fastest, car, errors:[com.graphhopper.util.exceptions.PointOutOfBoundsException: Point 0 is out of bounds: 0.0,0.0]
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=0.0,0.0&point=0.0,0.0&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false HTTP/1.1" 400 191 "-" "okhttp/3.8.0" 4
+ERROR [2018-09-27 02:53:18,258] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&vehicle=space-shuttle 127.0.0.1 en_US okhttp/3.8.0 [42.554851,1.536198, 42.510071,1.548128], took:1.02683E-4, , fastest, space-shuttle, errors:[java.lang.IllegalArgumentException: Vehicle not supported: space-shuttle. Supported are: car]
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&vehicle=space-shuttle HTTP/1.1" 400 198 "-" "okhttp/3.8.0" 3
+ERROR [2018-09-27 02:53:18,262] com.graphhopper.resources.RouteResource: vehicle=SPACE-SHUTTLE&point=42.554851,1.536198&point=42.510071,1.548128 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198, 42.510071,1.548128], took:1.05267E-4, , fastest, SPACE-SHUTTLE, errors:[java.lang.IllegalArgumentException: Vehicle not supported: space-shuttle. Supported are: car]
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?vehicle=SPACE-SHUTTLE&point=42.554851,1.536198&point=42.510071,1.548128 HTTP/1.1" 400 198 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 3
+INFO  [2018-09-27 02:53:18,269] com.graphhopper.resources.RouteResource: point=42.534133,1.581473&point=42.534781,1.582149&point=42.535042,1.582514&pass_through=true 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.534133,1.581473, 42.534781,1.582149, 42.535042,1.582514], took:0.003011011, , fastest, car, alternatives: 1, distance0: 320.9521855338318, weight0: 38.514262264059816, time0: 1min, points0: 10, debugInfo: idLookup:0.001365797s; , algoInit:1.56563E-4s, dijkstrabi|ch-routing:2.07957E-4s, extract time:2.1279E-5;visited nodes sum: 12;, algoInit:1.22934E-4s, dijkstrabi|ch-routing:2.91048E-4s, extract time:1.2822E-5;visited nodes sum: 32;, algoInit:1.56563E-4s, dijkstrabi|ch-routing:2.07957E-4s, extract time:2.1279E-5;visited nodes sum: 12;, algoInit:1.22934E-4s, dijkstrabi|ch-routing:2.91048E-4s, extract time:1.2822E-5;visited nodes sum: 32, simplify (12->12)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.534133,1.581473&point=42.534781,1.582149&point=42.535042,1.582514&pass_through=true HTTP/1.1" 200 1305 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 6
+INFO  [2018-09-27 02:53:18,278] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&type=gpx&gpx.route=false&gpx.waypoints=false 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198, 42.510071,1.548128], took:0.002977052, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 197, debugInfo: idLookup:0.001056218s; , algoInit:1.27472E-4s, dijkstrabi|ch-routing:3.58719E-4s, extract time:1.09733E-4;visited nodes sum: 26;, algoInit:1.27472E-4s, dijkstrabi|ch-routing:3.58719E-4s, extract time:1.09733E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&type=gpx&gpx.route=false&gpx.waypoints=false HTTP/1.1" 200 16229 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 10
+INFO  [2018-09-27 02:53:18,289] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.554851,1.536198&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&details=average_speed&details=edge_id&details=time 127.0.0.1 en_US okhttp/3.8.0 [42.554851,1.536198, 42.554851,1.536198], took:0.001983956, , fastest, car, alternatives: 1, distance0: 0.0, weight0: 0.0, time0: 0min, points0: 1, debugInfo: idLookup:0.001415776s; , algoInit:7.1573E-5s, dijkstrabi|ch-routing:4.6582E-5s, extract time:2.623E-6;visited nodes sum: 0;, algoInit:7.1573E-5s, dijkstrabi|ch-routing:4.6582E-5s, extract time:2.623E-6;visited nodes sum: 0, simplify (1->1)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.554851,1.536198&&type=json&instructions=true&points_encoded=true&calc_points=true&algorithm=&locale=en_US&elevation=false&optimize=false&details=average_speed&details=edge_id&details=time HTTP/1.1" 200 489 "-" "okhttp/3.8.0" 5
+ERROR [2018-09-27 02:53:18,294] com.graphhopper.resources.RouteResource: point=42.554851,1.536198 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198], took:1.25021E-4, , fastest, car, errors:[java.lang.IllegalArgumentException: At least 2 points have to be specified, but was:1]
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198 HTTP/1.1" 400 184 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 3
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?heading=0 HTTP/1.1" 400 156 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 2
+INFO  [2018-09-27 02:53:18,306] com.graphhopper.resources.RouteResource: point=42.554851,1.536198&point=42.510071,1.548128&type=gpx&gpx.track=true&gpx.route=false&gpx.waypoints=true 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [42.554851,1.536198, 42.510071,1.548128], took:0.002833836, , fastest, car, alternatives: 1, distance0: 9204.566083971122, weight0: 553.1809425137045, time0: 9min, points0: 197, debugInfo: idLookup:0.001025914s; , algoInit:1.26627E-4s, dijkstrabi|ch-routing:3.63221E-4s, extract time:1.06237E-4;visited nodes sum: 26;, algoInit:1.26627E-4s, dijkstrabi|ch-routing:3.63221E-4s, extract time:1.06237E-4;visited nodes sum: 26, simplify (247->247)
+127.0.0.1 - - [27/Sep/2018:02:53:18 +0000] "GET /route?point=42.554851,1.536198&point=42.510071,1.548128&type=gpx&gpx.track=true&gpx.route=false&gpx.waypoints=true HTTP/1.1" 200 16373 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 9
+INFO  [2018-09-27 02:53:18,315] org.eclipse.jetty.server.AbstractConnector: Stopped application@4fdb4052{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:18,316] org.eclipse.jetty.server.AbstractConnector: Stopped admin@bdc5584{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:18,316] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@5225e766{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:18,318] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@58e142be{/,null,UNAVAILABLE}
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.432 sec - in com.graphhopper.http.resources.RouteResourceTest
+Running com.graphhopper.http.resources.NearestResourceWithEleTest
+INFO  [2018-09-27 02:53:18,709] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:18,710] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:18,754] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:18,756] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:18,768] org.eclipse.jetty.setuid.SetUIDListener: Opened application@2ffb6cf6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:18,768] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@668d6dc7{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:18,768] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:18,770] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:18,771] com.graphhopper.reader.osm.GraphHopperOSM: graph car|RAM_STORE|3D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308
+INFO  [2018-09-27 02:53:18,773] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/monaco.osm.gz
+INFO  [2018-09-27 02:53:18,773] com.graphhopper.reader.osm.GraphHopperOSM: using car|RAM_STORE|3D|NoExt|,,,,, memory:totalMB:96, usedMB:69
+INFO  [2018-09-27 02:53:18,867] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):3 020, totalMB:96, usedMB:79
+INFO  [2018-09-27 02:53:18,869] com.graphhopper.reader.dem.SRTMProvider: srtm Elevation Provider, from: https://srtm.kurviger.de/SRTM3/, to: /Users/ghlgh/Desktop/gluo-graphhopper/core/files, as: MMAP_STORE using calcmean: false
+INFO  [2018-09-27 02:53:18,934] com.graphhopper.reader.osm.OSMReader: 13 740, now parsing ways
+INFO  [2018-09-27 02:53:18,954] com.graphhopper.reader.osm.OSMReader: 15 684, now parsing relations
+INFO  [2018-09-27 02:53:18,957] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 576, osmIdMap.size:3021, osmIdMap:0MB, nodeFlagsMap.size:1, relFlagsMap.size:0, zeroCounter:1 totalMB:96, usedMB:86
+INFO  [2018-09-27 02:53:19,104] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:19,105] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: start finding subnetworks (min:200, min one way:0) totalMB:92, usedMB:31
+INFO  [2018-09-27 02:53:19,108] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: 5 subnetworks found for car, totalMB:92, usedMB:33
+INFO  [2018-09-27 02:53:19,108] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: optimize to remove subnetworks (5), unvisited-dead-end-nodes (0), maxEdges/node (5)
+INFO  [2018-09-27 02:53:19,112] com.graphhopper.reader.osm.GraphHopperOSM: edges: 724, nodes 567, there were 5 subnetworks. removed them => 9 less nodes
+INFO  [2018-09-27 02:53:19,119] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.005893663s, size:562, leafs:35, precision:300, depth:2, checksum:567, entries:[16, 4], entriesPerLeaf:16.057142
+INFO  [2018-09-27 02:53:19,119] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph car|RAM_STORE|3D|NoExt|5,14,4,3,3, details:edges:724(1MB), nodes:567(1MB), name:(1MB), geo:5 993(1MB), bounds:7.404341341652155,7.439277859910082,43.72177128616954,43.75196271580374,-2.0,189.0, totalMB:92, usedMB:37)
+INFO  [2018-09-27 02:53:19,129] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:92, usedMB:39)
+INFO  [2018-09-27 02:53:19,130] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/monaco-gh/, data_reader_file:../core/files/monaco.osm.gz, flag_encoders:car, edges:724(1MB), nodes:567(1MB), name:(1MB), geo:5 993(1MB), bounds:7.404341341652155,7.439277859910082,43.72177128616954,43.75196271580374,-2.0,189.0
+INFO  [2018-09-27 02:53:19,233] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:19,236] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@213488e6{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:19,237] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:19,242] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@3c9e2526{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:19,243] org.eclipse.jetty.server.AbstractConnector: Started application@2ffb6cf6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:19,243] org.eclipse.jetty.server.AbstractConnector: Started admin@668d6dc7{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:19,243] org.eclipse.jetty.server.Server: Started @16717ms
+127.0.0.1 - - [27/Sep/2018:02:53:19 +0000] "GET /nearest?point=43.730864,7.420771&elevation=true HTTP/1.1" 200 103 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 26
+127.0.0.1 - - [27/Sep/2018:02:53:19 +0000] "GET /nearest?point=43.730864,7.420771&elevation=false HTTP/1.1" 200 98 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 4
+127.0.0.1 - - [27/Sep/2018:02:53:19 +0000] "GET /nearest?point=43.730864,7.420771 HTTP/1.1" 200 98 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 4
+INFO  [2018-09-27 02:53:19,336] org.eclipse.jetty.server.AbstractConnector: Stopped application@2ffb6cf6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:19,338] org.eclipse.jetty.server.AbstractConnector: Stopped admin@668d6dc7{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:19,338] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@3c9e2526{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:19,340] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@213488e6{/,null,UNAVAILABLE}
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.962 sec - in com.graphhopper.http.resources.NearestResourceWithEleTest
+Running com.graphhopper.http.isochrone.IsochroneResourceTest
+INFO  [2018-09-27 02:53:19,860] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2018-09-27 02:53:19,860] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2018-09-27 02:53:19,895] io.dropwizard.bundles.assets.ConfiguredAssetsBundle: Registering ConfiguredAssetBundle with name: assets for path /maps/*
+INFO  [2018-09-27 02:53:19,897] io.dropwizard.server.ServerFactory: Starting GraphHopperApplication
+                        _     _
+   __ _ _ __ __ _ _ __ | |__ | |__   ___  _ __  _ __   ___ _ __
+  / _` | '__/ _` | '_ \| '_ \| '_ \ / _ \| '_ \| '_ \ / _ \ '__|
+ | (_| | | | (_| | |_) | | | | | | | (_) | |_) | |_) |  __/ |
+  \__, |_|  \__,_| .__/|_| |_|_| |_|\___/| .__/| .__/ \___|_|
+  |___/          |_|                     |_|   |_|
+
+INFO  [2018-09-27 02:53:19,911] org.eclipse.jetty.setuid.SetUIDListener: Opened application@49f6e8a2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:19,911] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@4d6cfa5{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:19,911] org.eclipse.jetty.server.Server: jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+INFO  [2018-09-27 02:53:19,914] com.graphhopper.reader.osm.GraphHopperOSM: version 0.12|2018-09-27T02:52:31Z (5,14,4,3,3,2)
+INFO  [2018-09-27 02:53:19,914] com.graphhopper.reader.osm.GraphHopperOSM: graph car|RAM_STORE|2D|NoExt|,,,,, details:edges:0(0MB), nodes:0(0MB), name:(0MB), geo:0(0MB), bounds:1.7976931348623157E308,-1.7976931348623157E308,1.7976931348623157E308,-1.7976931348623157E308
+INFO  [2018-09-27 02:53:19,918] com.graphhopper.reader.osm.GraphHopperOSM: start creating graph from ../core/files/andorra.osm.pbf
+INFO  [2018-09-27 02:53:19,918] com.graphhopper.reader.osm.GraphHopperOSM: using car|RAM_STORE|2D|NoExt|,,,,, memory:totalMB:96, usedMB:43
+INFO  [2018-09-27 02:53:19,956] com.graphhopper.reader.osm.OSMReader: creating graph. Found nodes (pillar+tower):20 917, totalMB:92, usedMB:45
+INFO  [2018-09-27 02:53:19,991] com.graphhopper.reader.osm.OSMReader: 69 646, now parsing ways
+INFO  [2018-09-27 02:53:20,016] com.graphhopper.reader.osm.OSMReader: 72 371, now parsing relations
+INFO  [2018-09-27 02:53:20,016] com.graphhopper.reader.osm.OSMReader: finished way processing. nodes: 1933, osmIdMap.size:20919, osmIdMap:0MB, nodeFlagsMap.size:2, relFlagsMap.size:0, zeroCounter:2 totalMB:90, usedMB:60
+INFO  [2018-09-27 02:53:20,016] com.graphhopper.reader.osm.OSMReader: time pass1:0s, pass2:0s, total:0s
+INFO  [2018-09-27 02:53:20,016] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: start finding subnetworks (min:200, min one way:0) totalMB:90, usedMB:60
+INFO  [2018-09-27 02:53:20,019] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: 16 subnetworks found for car, totalMB:90, usedMB:60
+INFO  [2018-09-27 02:53:20,020] com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworks: optimize to remove subnetworks (16), unvisited-dead-end-nodes (0), maxEdges/node (4)
+INFO  [2018-09-27 02:53:20,029] com.graphhopper.reader.osm.GraphHopperOSM: edges: 2 261, nodes 1 889, there were 16 subnetworks. removed them => 44 less nodes
+INFO  [2018-09-27 02:53:20,037] com.graphhopper.storage.index.LocationIndexTree: location index created in 0.008121852s, size:2 485, leafs:748, precision:300, depth:3, checksum:1889, entries:[64, 16, 4], entriesPerLeaf:3.3221924
+INFO  [2018-09-27 02:53:20,037] com.graphhopper.reader.osm.GraphHopperOSM: flushing graph car|RAM_STORE|2D|NoExt|5,14,4,3,3, details:edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408, totalMB:92, usedMB:46)
+INFO  [2018-09-27 02:53:20,046] com.graphhopper.reader.osm.GraphHopperOSM: flushed graph totalMB:92, usedMB:48)
+INFO  [2018-09-27 02:53:20,047] com.graphhopper.http.GraphHopperManaged: loaded graph at:./target/andorra-gh/, data_reader_file:../core/files/andorra.osm.pbf, flag_encoders:car, edges:2 261(1MB), nodes:1 889(1MB), name:(1MB), geo:31 061(1MB), bounds:1.419350909129178,1.7338322863094275,42.433747107544846,42.6330408
+INFO  [2018-09-27 02:53:20,143] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     / (com.graphhopper.http.resources.RootResource)
+    GET     /i18n (com.graphhopper.resources.I18NResource)
+    GET     /i18n/{locale} (com.graphhopper.resources.I18NResource)
+    GET     /info (com.graphhopper.resources.InfoResource)
+    GET     /isochrone (com.graphhopper.resources.IsochroneResource)
+    GET     /nearest (com.graphhopper.resources.NearestResource)
+    GET     /route (com.graphhopper.resources.RouteResource)
+
+INFO  [2018-09-27 02:53:20,144] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@57e92236{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:20,145] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2018-09-27 02:53:20,148] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1608fb8e{/,null,AVAILABLE}
+INFO  [2018-09-27 02:53:20,148] org.eclipse.jetty.server.AbstractConnector: Started application@49f6e8a2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:20,149] org.eclipse.jetty.server.AbstractConnector: Started admin@4d6cfa5{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:20,149] org.eclipse.jetty.server.Server: Started @17623ms
+INFO  [2018-09-27 02:53:20,307] com.graphhopper.resources.RouteResource: took: 0.0, visited nodes:923, {distance_limit=[-1], time_limit=[300], buckets=[2], reverse_flow=[false], weighting=[fastest], point=[42.531073,1.573792], key=[no_key_necessary], vehicle=[car]}
+127.0.0.1 - - [27/Sep/2018:02:53:20 +0000] "GET /isochrone?point=42.531073%2C1.573792&time_limit=300&distance_limit=-1&vehicle=car&buckets=2&reverse_flow=false&weighting=fastest&key=no_key_necessary HTTP/1.1" 200 14981 "-" "Swagger-Codegen/0.11-SNAPSHOT/java" 121
+INFO  [2018-09-27 02:53:20,361] com.graphhopper.resources.RouteResource: took: 0.0, visited nodes:277, {distance_limit=[3000], time_limit=[-1], buckets=[2], reverse_flow=[false], weighting=[fastest], point=[42.531073,1.573792], key=[no_key_necessary], vehicle=[car]}
+127.0.0.1 - - [27/Sep/2018:02:53:20 +0000] "GET /isochrone?point=42.531073%2C1.573792&time_limit=-1&distance_limit=3000&vehicle=car&buckets=2&reverse_flow=false&weighting=fastest&key=no_key_necessary HTTP/1.1" 200 5650 "-" "Swagger-Codegen/0.11-SNAPSHOT/java" 11
+ERROR [2018-09-27 02:53:20,395] com.graphhopper.resources.RouteResource: point=-1.816719,51.557148 127.0.0.1 en_US Jersey/2.25.1 (HttpUrlConnection 1.8.0_181) [-1.816719,51.557148], took:4.72197E-4, , fastest, car, errors:[com.graphhopper.util.exceptions.PointOutOfBoundsException: Point 0 is out of bounds: -1.816719,51.557148]
+127.0.0.1 - - [27/Sep/2018:02:53:20 +0000] "GET /route?point=-1.816719,51.557148 HTTP/1.1" 400 215 "-" "Jersey/2.25.1 (HttpUrlConnection 1.8.0_181)" 9
+INFO  [2018-09-27 02:53:20,427] com.graphhopper.resources.RouteResource: took: 0.0, visited nodes:932, {distance_limit=[-1], time_limit=[300], buckets=[2], reverse_flow=[true], weighting=[fastest], point=[42.531073,1.573792], key=[no_key_necessary], vehicle=[car]}
+127.0.0.1 - - [27/Sep/2018:02:53:20 +0000] "GET /isochrone?point=42.531073%2C1.573792&time_limit=300&distance_limit=-1&vehicle=car&buckets=2&reverse_flow=true&weighting=fastest&key=no_key_necessary HTTP/1.1" 200 16151 "-" "Swagger-Codegen/0.11-SNAPSHOT/java" 30
+INFO  [2018-09-27 02:53:20,435] org.eclipse.jetty.server.AbstractConnector: Stopped application@49f6e8a2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2018-09-27 02:53:20,435] org.eclipse.jetty.server.AbstractConnector: Stopped admin@4d6cfa5{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2018-09-27 02:53:20,436] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@1608fb8e{/,null,UNAVAILABLE}
+INFO  [2018-09-27 02:53:20,437] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@57e92236{/,null,UNAVAILABLE}
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.208 sec - in com.graphhopper.http.isochrone.IsochroneResourceTest
+Running com.graphhopper.http.IPFilterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.graphhopper.http.IPFilterTest
+
+Results :
+
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) < [ekstazi]test @ graphhopper-web <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:5.2.0:ekstazi (default-cli) @ graphhopper-web ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] GraphHopper Parent Project 0.12-SNAPSHOT ........... SUCCESS [  0.630 s]
+[INFO] GraphHopper API .................................... SUCCESS [  1.647 s]
+[INFO] GraphHopper Web API ................................ SUCCESS [  2.250 s]
+[INFO] GraphHopper Core ................................... SUCCESS [ 14.074 s]
+[INFO] GraphHopper Reader for OpenStreetMap Data .......... SUCCESS [  3.691 s]
+[INFO] GraphHopper Isochrone .............................. SUCCESS [  1.123 s]
+[INFO] GraphHopper Reader for Gtfs Data ................... SUCCESS [  3.787 s]
+[INFO] GraphHopper Tools .................................. SUCCESS [  0.866 s]
+[INFO] GraphHopper Directions API hand-crafted Java Client. SUCCESS [  2.115 s]
+[INFO] GraphHopper Dropwizard Bundle ...................... SUCCESS [  0.075 s]
+[INFO] GraphHopper Web 0.12-SNAPSHOT ...................... SUCCESS [ 18.855 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 49.317 s
+[INFO] Finished at: 2018-09-26T21:53:21-05:00
+[INFO] ------------------------------------------------------------------------
