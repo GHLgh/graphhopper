@@ -39,7 +39,7 @@ before_script:
   - "if [ -z \"$API_KEY\" ]; then API_KEY=78da6e9a-273e-43d1-bdda-8f24e007a1fa; fi" # change in GraphHopperWebIT too
 
 before_script:
-  - cd $HOME/test_cache && find . -name '*.clz' -print | cpio -pvdumB /
+  - cd $HOME/try_cache && find . -name '*.clz' -print | cpio -pvdumB /
   - cd $TRAVIS_BUILD_DIR
 
 script:
