@@ -37,6 +37,12 @@ before_script:
   - _JAVA_OPTIONS=
   - "mvn --version"
   - "if [ -z \"$API_KEY\" ]; then API_KEY=78da6e9a-273e-43d1-bdda-8f24e007a1fa; fi" # change in GraphHopperWebIT too
+
+# restore artifact for ekstazi
+before_script:
+  - cd $HOME/try_cache && find . -name '*.clz' -print | cpio -pvdumB /
+  - cd $TRAVIS_BUILD_DIR
+
 script:
   - "mvn -Dkey=$API_KEY clean test verify checkstyle:check spotbugs:check forbiddenapis:check -B"
 
@@ -59,3 +65,4 @@ notifications:
 cache:
   directories:
   - $HOME/.m2
+  - $HOME/try_cache
